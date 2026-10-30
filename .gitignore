@@ -1,0 +1,22 @@
+# macOS and IDE
+.DS_Store
+.idea/
+
+# Python environment
+.venv/
+__pycache__/
+*.pyc
+
+# Simulation outputs
+*.vcd
+*.fst
+*.fst.hier
+sim_build/
+test/results.xml
+
+# Generated files
+runs/
+tt_submission/
+test/gate_level_netlist.v
+src/user_config.json
+src/config_merged.json
