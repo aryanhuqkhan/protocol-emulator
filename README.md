@@ -1,5 +1,5 @@
 ![](../../workflows/gds/badge.svg) ![](../../workflows/docs/badge.svg) ![](../../workflows/test/badge.svg) ![](../../workflows/fpga/badge.svg)
-#Jane Street Protocol Emulator
+# Jane Street Protocol Emulator
 
 Purpose:
 Hardware protocols like UART, SPI, and I2C are usually handled in one of two ways. Most microcontrollers include dedicated peripheral blocks, fixed digital circuits that handle one protocol each, with a baud rate generator, shift register, and state machine wired in at design time. These are fast and precise, but they can only speak the protocols the chip designer chose to include. The alternative is bit-banging, where the CPU toggles pins from software with carefully counted delays. That is flexible, but it consumes CPU time and becomes unreliable at higher speeds or when the processor is busy.
